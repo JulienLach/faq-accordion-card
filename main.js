@@ -12,9 +12,5 @@ document.addEventListener('DOMContentLoaded', () => {
             faqTitle.classList.toggle('active');
             arrowFlip[index].classList.toggle('active');
         });
-
     });
-
-
-
 });

@@ -95,12 +95,19 @@ body {
 
 .arrow.active {
     rotate: 180deg;
+    transition: 0.3s;
 }
 
 /* MEDIA QUERIES */
 
 @media(max-width: 1000px) {
 
+
+    body {
+        font-family: 'Kumbh Sans', sans-serif;
+        height: 130vh;
+        background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)) no-repeat;
+    }
 
     .img .img-desktop {
         width: 100%;
